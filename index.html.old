@@ -1,0 +1,185 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-7">
+   <meta name="description" content="Giorgos Sfikas homepage">
+   <meta name="keywords" content="Giorgos Sfikas Ioannina uoi Strasbourg LSIIT MIV NCSR Demokritos CIL iCUBE University MATLAB software machine learning computer vision personal homepage">
+   <meta name="Author" content="Giorgos Sfikas">
+   <title>Giorgos Sfikas' site - Γιώργος Σφήκας</title>
+</head>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-8244186-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+
+<body text="#444444" link="#0000DD" vlink="#E30030" background="bwcircuit.gif">
+
+<hr>
+<ul>
+
+<table>
+<tr>
+<td> <img src="me2.jpg" style="width:100px; " alt="Photo" />  </td>
+<!--<td> <img src="me_cigar3.jpg" style="width:150px; height:210px;" alt="Photo" />  </td>
+-->
+
+<td>
+<address>
+Γιώργος Σφήκας<br>
+Giorgos Sfikas<br><br>
+Contact at [my surname] at either one of the following : <br>
+<!--Pole API,
+Boulevard Sebastien Brant<br>
+BP 10413
+LSIIT - UMR 7005<br>
+67142 Illkirch Cedex Alsace, France<br>
+<!-- Department of Computer Science<br>
+University of Ioannina<br>
+GR-45110 Ioannina, Greece<br> 
+Tel(1) : <i>+33(0)3 68 85 44 84</i><br>
+Tel(2) : <i>+30 26510 088 73 </i><br> -->
+<img src="dieuthinsi.png" width=50%>
+</address>
+</td>
+</tr>
+</table>
+<br><br>
+<b>Phd in Image processing and Computer Vision (Signal, Images et Vision)</b>, <a href="http://www.unistra.fr">University of Strasbourg</a>, September 2012 <br>
+(<a href="http://ed.math-spi.unistra.fr/"> Ecole doctorale </a> de Math'ematiques, Sciences de l'Information et de l'Ing'enieur / Mathematics, Information and Engineering Sciences)<br>
+Doctoral thesis: <i>"Mod'eles statistiques non lin'eaires et non gaussiens compacts pour
+l'analyse de structures c'er'ebrales"<br>("Statistical non-linear, non-gaussian compact models for brain structure analysis")</i> <a href="http://www.theses.fr/2012STRAD032"> pdf </a> <br>
+<b>Msc in Computer Science</b>, <a href="http://www.uoi.gr">University of Ioannina</a>, May 2007 <br>
+Msc thesis: <i>"Στατιστικές μέθοδοι για ανάκτηση εικόνας με βάση το περιεχόμενο"<br>
+("Statistical methods for content-based image retrieval")</i> <a href="MT-2006-17.pdf">pdf</a> (in greek) <br>
+<b>Bsc in Computer Science</b>, University of Ioannina, October 2004<br>
+Bsc thesis: <i>"Μίξεις κανονικών κατανομών για ανάκτηση εικόνας"<br>("Using gaussian mixture models for image retrieval")</i> <a href="downloads/Sfikas_ptyxiaki_Oct2004.pdf">pdf</a> (in greek) <br>
+
+<br><br><br>
+<br>Research interests: <br><br>
+<ul><i>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Computer Vision - Machine Learning
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Image Segmentation - Image Retrieval - Shape Analysis - Medical Imaging
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pattern Recognition - Neural Networks - Computational Intelligence
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cultural heritage - Computers and Archaeology
+</i></ul><br>
+[<a href="CV/CV.pdf"> CV </a> (updated September 2016)]
+[<a href="http://scholar.google.com/citations?user=X73G9lYAAAAJ">Google Scholar</a>]<br><br><br>
+
+<br><br><br>
+Teaching:<br><br>
+<ul>
+<li>Office hours: Friday 12:00-14:00
+<li>Digital Image Processing (MYE037)
+<ul>
+	<li> News
+	<li> Slides
+</ul>
+</ul>
+
+<br><br><br>
+<br><br>
+Publications:<br><br>
+<i>Journal</i><br>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S.Faisan, C.Heinrich, G.Sfikas, J.Zallat:
+ <b>"Estimation of Mueller matrices using non-local means filtering"</b>, <i>Optics Express</i>, 2013 &nbsp; <a href="2013SfikasOPTICSEXPRESS.pdf">pdf</a>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;N.Philippi, V.Noblet, A.Botzung, O.Despr'es, F.Renard, G.Sfikas, B.Cretin, S.Kremer, L.Manning, F.Blanc: <b>"MRI-based volumetry correlates of autobiographical memory in Alzheimer's disease"</b>, <i>PLOS ONE</i>, 2012 &nbsp; <a href="2012SfikasPLOS.pdf">pdf</a>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G.Sfikas, C.Heinrich, J.Zallat, C.Nikou, N.P.Galatsanos: <b>"Recovery of polarimetric Stokes images by spatial mixture models"</b>, <i>Journal of the Optical Society of America A</i> , vol. 28(3), pp. 465-474, 2011 &nbsp; <a href="2011JOSAman.pdf">pdf</a>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G.Sfikas, C.Nikou, N.P.Galatsanos, C.Heinrich: <b>"Spatially varying mixtures incorporating line processes for image segmentation"</b>, <i>Journal of Mathematical Imaging and Vision</i> ,vol. 36(2), pp. 91-110, 2010 &nbsp; <a href="2009JMIV.pdf">pdf</a> </ul>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>Conference</i><br>
+<ul>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G.Sfikas, C.Nikou: <b>"Bayesian Multiview Manifold Learning applied to Hippocampus Shape and Clinical Score Data"</b>, <i>3rd workshop on Bayesian and Graphical Models in Biomedical Imaging, held in conjunction with the 19th International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)</i>, Athens, Greece, October 2016 &nbsp; <a href="2016MICCAIW-BAMBI.pdf">pdf</a>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G.Sfikas, G.Retsinas, B.Gatos: <b>"Zoning Aggregated Hypercolumns for Keyword Spotting"</b>, <i>International Conference on Frontiers in Handwriting Recognition (ICFHR)</i>, Shenzhen, China, October 2016 &nbsp; <a href="2016ICFHR-ZAH.pdf">pdf</a>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G.Sfikas, G.Louloudis, N.Stamatopoulos, B.Gatos: <b>"Bayesian mixture models on connected components for Newspaper article segmentation"</b>, <i>ACM Symposium on Document Engineering (DocEng)</i>, Vienna, Austria, September 2016 &nbsp;<a href="2016DocEng.pdf">pdf</a>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G.Sfikas, C.Akasiadis, E.Spyrou: <b>"Creating a smart room using an IoT approach"</b>, <i>Workshop on Artificial Intelligence and Internet of Things (AI-IoT), in conjunction with the 9th Hellenic Conference on Artificial Intelligence (SETN)</i>, Thessaloniki, Greece, May 2016 &nbsp;<a href="2016SETN.pdf">pdf</a>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G.Louloudis, G.Sfikas, N.Stamatopoulos, B.Gatos: <b>"Word Segmentation using the Student's-t Distribution"</b>, <i>International Workshop on Document Analysis and Systems (DAS)</i>, Santorini, Greece, April 2016 &nbsp;</a><a href="DAS2016.pdf">pdf</a>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G.Sfikas, A.P.Giotis, G.Louloudis, B.Gatos: <b>"Using Attributes for Word Spotting and Recognition in Polytonic Greek Documents"</b>, <i>International Conference on Document Analysis and Recognition (ICDAR)</i>, Nancy, France, August 2015 &nbsp;<a href="15SfikasAttributesICDAR.pdf">pdf</a>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B.Gatos, N.Stamatopoulos, G.Louloudis, G.Sfikas, G.Retsinas, F.Simistira, V.Papavassiliou, V.Katsouros: <b>"GRPOLY-DB: An old Greek polytonic document image database"</b>, <i>International Conference on Document Analysis and Recognition (ICDAR)</i>, Nancy, France, August 2015 &nbsp;<a href="2015GatosICDAR.pdf">pdf</a>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A.P.Giotis, G.Sfikas, C.Nikou, B.Gatos: <b>"Shape-based Word Spotting in Handwritten Document Images"</b>, <i>International Conference on Document Analysis and Recognition (ICDAR)</i>, Nancy, France, August 2015 &nbsp; <a href="2015GiotisICDAR.pdf"> pdf </a>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G.Sfikas, C.Nikou, N.P.Galatsanos, C.Heinrich: <b>"Majorization-Minimization mixture model determination in image segmentation"</b>, <i>IEEE Computer Vision and Pattern recognition (CVPR)</i>, Colorado Springs, USA, June 2011 &nbsp;<a href="2011CVPR.pdf">pdf</a>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G.Sfikas, C.Heinrich, C.Nikou: <b>"Multiple atlas inference and population analysis with spectral clustering"</b>, <i>IEEE International Conference on Pattern Recognition (ICPR)</i>, Istanbul, Turkey, August 2010 &nbsp;<a href="2010ICPR.pdf">pdf</a>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G.Sfikas, C.Heinrich, J.Zallat, C.Nikou, N.P.Galatsanos: <b>"Joint recovery and segmentation of polarimetric images using a compound MRF and mixture modeling"</b>, <i>International Conference on Image processing (ICIP)</i>, Cairo, Egypt, November 2009 &nbsp;<a href="2009ICIP.pdf">pdf</a>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G.Sfikas, C.Nikou, C.Heinrich, N.P.Galatsanos: <b>"On optimization of probability vector random fields used for image segmentation"</b>, <i>IEEE International workshop on Machine Learning for Signal Processing (MLSP)</i>, Grenoble, France, September 2009 &nbsp;<a href="2009MLSP.pdf">pdf</a>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G.Sfikas, C.Nikou, N.P.Galatsanos, C.Heinrich: <b>"MR Brain Tissue classification using an edge-preserving spatially variant Bayesian mixture model"</b>, <i>11th international conference on medical image computing and computer assisted intervention (MICCAI)</i>, New York, USA, September 2008 &nbsp;<a href="2008B.pdf">pdf</a>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G.Sfikas, C.Nikou, N.P.Galatsanos: <b>"Edge-preserving spatially-varying mixtures for image segmentation"</b>, <i>IEEE Computer Vision and Pattern Recognition (CVPR)</i>, Anchorage, USA, June 2008 &nbsp;<a href="2008.pdf">pdf</a>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G.Sfikas, C.Nikou, N.P.Galatsanos: <b>"Robust image segmentation with mixtures of student's t-distributions"</b>, <i>IEEE International conference on Image Processing (ICIP)</i>, San Antonio, USA, September 2007<a href="2007.pdf">pdf</a>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G.Sfikas, C.Constantinopoulos, A.Likas, N.P.Galatsanos: <b>"An Analytic Distance Metric for Gaussian Mixture Models with Application in Image Retrieval"</b>, <i>International conference on Artificial Neural Networks (ICANN)</i>, Warsaw, Poland, September 2005
+<a href="2005.pdf">pdf</a><br>
+<br><br><br>
+Technical reports and non-peer reviewed material: <br><br>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G.Sfikas: <b>"Mycenean wall-paintings. Case study: The 'Mycenean lady'. Computational methods for prehistoric wall-painting processing and reconstruction."</b>, February 2013<a href="http://www.cs.uoi.gr/~sfikas/myceneenne/SFIKAS_ergasiaMykhnaikh2012.pdf"> pdf </a> [in Greek]
+
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G.Sfikas: <b>"The aims of Art according to William Morris and the Arts and Crafts movement"</b>, February 2013  pdf  [in Greek]
+</ul>
+
+
+<hr>
+<br>
+<li>
+<font face="Helvetica"><font color="#900000"><font size=+0><a href="http://iit.demokritos.gr">IIT @ NCSR "Demokritos"</a></font></font></font></li>
+
+<li>
+<font face="Helvetica"><font color="#900000"><font size=+0><a href="http://icube-miv.unistra.fr/fr/index.php/Accueil">"iCube/MIV" (formerly LSIIT/MIV)</a></font></font></font></li>
+
+<li>
+<font face="Helvetica"><font color="#900000"><font size=+0><a href="http://ipan.cs.uoi.Gr">"IPAN" - Information Processing & Analysis</a></font></font></font></li>
+
+<li>
+<font face="Helvetica"><font color="#900000"><font size=+0>Software</font></font></font></li>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://github.com/sfikas/">Download code </a> (covering some of the code used for the above publications)
+<!--<li>
+<font face="Helvetica"><font color="#900000"><font size=+0>Miscellaneous</font></font></font></li>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="glossary.txt">A short list of correspondences of some pattern recognition/math terms in English, French, Greek</a>
+ <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="sfikster.html">Download Sfikster</a> 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="downl.html">Downloads (1999-2000)</a> 
+
+<!--
+<li>
+<font face="Helvetica"><font color="#900000"><font size=+0>Literature</font></font></font></li>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="kavva2.htm">Νίκος Καββαδίας - στίχοι και μελοποιήσεις</a>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="hikmet.htm">Ναζίμ Χικμέτ</a>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="literature/xenakis.htm">Γιάννης Ξενάκης (Iannis Xenakis)</a>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="eckel/Contents.html">Bruce Eckel's "Thinking in C++"</a>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="fun/unixwars.html">Unix wars</a> - <a href="fun/netwars.html">Net wars</a>(star wars parodies)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="fun/hacker-howto.html">HOWTO-be a hacker</a> 
+<li>
+<font face="Helvetica"><font color="#900000"><font size=+0>Other..</font></font></font></li>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="PHOTOS/kotero.html"> Photos (Private yacht) </a>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="PHOTOS/photos.html"> Photos (Kyknos rebetiko club, 2003)</a>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="PHOTOS/photos_orko.html"> Photos (Orkomwsia, 2004)</a>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="fun/tabs.html"> Guitar tablatures </a>
+--> 
+</ul>
+<br>&nbsp;
+<br>&nbsp;
+<br>&nbsp;
+<div align=right>Γιώργος Σφήκας ,<a href="mailto:cs.uoi.gr">cs.uoi.gr</a></div>
+
+<!-- Title: Giorgos' joint -->
+<!-- URL: http://www.cs.uoi.gr/~sfikas -->
+
+<!--
+
+<script language="JavaScript" type="text/javascript" src="http://m1.nedstatbasic.net/basic.js">
+</script>
+<script language="JavaScript" type="text/javascript" >
+<!--
+  nedstatbasic("ADNFEAmGIyRP8WTKJ27NV6jw4sdA", 0);
+// -->
+</script>
+<noscript>
+<a target="_blank" href="http://www.nedstatbasic.net/stats?ADNFEAmGIyRP8WTKJ27NV6jw4sdA"><img
+src="http://m1.nedstatbasic.net/n?id=ADNFEAmGIyRP8WTKJ27NV6jw4sdA"
+border="0" width="18" height="18"
+alt="Nedstat Basic - Free web site statistics
+Personal homepage website counter"></a><br>
+<a target="_blank" href="http://www.nedstatbasic.net/">Free counter</a>
+</noscript>
+<!-- End Nedstat Basic code -->
+</body>
+</html>
