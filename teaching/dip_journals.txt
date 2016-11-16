@@ -1,0 +1,39 @@
+Journals
+========
+
+IEEE Transactions on Image Processing
+IEEE Transactions on Pattern Analysis and Machine Intelligence
+Computer Vision, Graphics and Image Processing
+Computer Vision and Image Understanding
+IEEE Transactions on Systems, Man and Cybernetics
+Artifical Intelligence
+Pattern Recognition
+Pattern Recognition Letters
+Journal of the Optical Society of America - A: Optics, Image Science and Vision
+Optical Engineering
+Applied Optics - Information Processing
+IEEE Transactions on Medical Imaging
+Journal of Electronic Imaging
+IEEE Transactions on Information Theory
+IEEE Transactions on Communications
+IEEE Transactions on Acoustics, Speech and Signal Processing
+Proceedings of the IEEE
+IEEE Transactions on Computers
+International Journal on Document Analysis and Recognition
+
+
+Conferences
+===========
+
+International Conference on Image Processing (ICIP)
+Computer Vision and Pattern Recognition (CVPR)
+International Conference on Computer Vision (ICCV)
+European Conference on Computer Vision (ECCV)
+Groupe d'Etudes du Traitement du Signal et des Images (GRETSI)
+Asian Conference on Computer Vision (ACCV)
+Hellenic Conference on Artificial Intelligence (SETN)
+International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)
+International Symposium on Biomedical Imaging (ISBI)
+European Signal Processing Conference (EUSIPCO)
+International Conference on Frontiers in Handwriting Recognition (ICFHR)
+International Conference on Document Analysis and Recognition (ICDAR)
