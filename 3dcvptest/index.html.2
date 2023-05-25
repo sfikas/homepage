@@ -1,0 +1,360 @@
+{% load staticfiles %}
+{% load bootstrap3 %}
+{% load i18n %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>{% trans "ScriptNet Document Analysis and Recognition Competitions" %}</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.transparence.css' %}" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{% static 'font-awesome/css/font-awesome.min.css' %}" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="{% static 'css/animate.min.css' %}" type="text/css">
+
+	<!-- Flag CSS -->
+    <link rel="stylesheet" href="{% static 'css/flag-icon.css' %}" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{% static 'css/creative.css' %}" type="text/css">
+    <link rel="stylesheet" href="{% static 'css/sfikas.css' %}" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                {% if user.is_authenticated %}
+                <a class="navbar-brand page-scroll dontunderline" href="#page-top"><small><small>{% trans "Logged in as" %} &nbsp;</small></small>{{ user.first_name }} {{ user.last_name }} </a>
+                <a class="navbar-brand page-scroll dontunderline" href="{% url 'signout' %}"><small><small>{% trans "[Logout]" %}</small></small></a>
+                {% else %}
+                <a class="navbar-brand page-scroll dontunderline" href="#page-top"><small>{% trans "Welcome to" %}</small> ScriptNet </a>
+                {% endif %}
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">                    
+                    <li>
+                        <a class="page-scroll dontunderline" href="#about">{% trans "About" %} </a>
+                    </li>
+                    <li>
+                        <a class="page-scroll dontunderline" href="#services">{% trans "Competitions" %}</a>
+                    </li>
+                    {% if not user.is_authenticated %}
+                    <li>
+                        <a class="page-scroll dontunderline" href="#register">{% trans "Register" %}</a>
+                    </li>                    
+                    <li>
+                        <a class="page-scroll dontunderline" href="#login">{% trans "Login" %}</a>
+                    </li>
+                    {% else %}
+                    <li>
+                        <a class="page-scroll dontunderline" href="#changeinfo">{% trans "Edit user info" %}</a>
+                    </li>                    
+                    {% endif %}
+                    <li>
+                        <a class="page-scroll dontunderline" href="#contact">{% trans "Contact" %}</a>
+                    </li>
+				<li>
+				 <a class="dropdown-toggle dontunderline" data-toggle="dropdown" href="#myTools" style="display:inline-block;padding-left:0px;">&nbsp;&nbsp;&nbsp;&nbsp;{% trans "Language" %}
+				 <b class="caret"></b>
+                  </a>
+				<ul class="dropdown-menu">
+					<form action="{% url 'set_language' %}" method="post">
+					{% csrf_token %}
+					<input name="next" type="hidden" value="{{ request.get_full_path}}" />
+					{% get_current_language as LANGUAGE_CODE %}
+					{% get_available_languages as LANGUAGES %}
+					{% get_language_info_list for LANGUAGES as languages %}
+					{% for language in languages %}
+							<ul>						   	
+							<button type="submit"
+									class="btn btn-link btn-xs"
+						            name="language"
+						            value="{{ language.code }}"
+						            class="{% if language.code == LANGUAGE_CODE %}selected{% endif %}">
+						        {{ language.name_local }}
+						    </button>
+							</ul>
+        			{% endfor %}
+				</ul>		
+					<span class="flag-icon flag-icon-{{LANGUAGE_CODE}}"></span>
+				</form>
+				</li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>ScriptNet</h1>
+                <hr>
+                <p>{% trans "ScriptNet is a platform of competitions running under the READ project" %}</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll dontunderline">{% trans "Find Out More" %}</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="col-lg-8 col-lg-offset-2 text-center"> -->
+		<div class="col-lg-8">
+                    <h2 class="section-heading">{% trans "About ScriptNet" %}</h2>
+<br>
+<br>
+<br>
+                    <h4 class="section-heading"></h4>
+                                        <p class="text-faded">
+{% trans "ScriptNet is a platform which hosts competitions related to Handwritten Text Recognition (HTR) and other Document Image Analysis (DIA) areas of research." %}
+<br><br>
+{% trans  "Competitions are a vital part of research in computer science.  Research teams apply their algorithms to defined collections of handwritten and printed documents, competing to produce the most accurate results.  Competitions often take place at well-known conferences like the " %}
+<a href="http://u-pat.org/ICDAR2017/" style="color:white">{% trans "International Conference on Document Analysis and Recognition (ICDAR)" %}</a>.  
+{% trans "The quality of Handwritten Text Recognition and other technologies is improved through these competitions, making it possible for computers to process, read and search historical documents." %}
+<br><br>
+{% trans "ScriptNet aims to attract as many research groups as possible to contribute to the task of unconstrained historical handwriting recognition. The main idea is to host several competitions in a common and uniform environment." %}                                 
+<br><br>
+{% trans "ScriptNet contains functionality which enables everyone to submit results <b>at any time</b> and get evaluation results, as well as ranking, automatically.  It is an initiative of the H2020 " %} 
+<a href="http://read.transkribus.eu/" style="color:white">{% trans "project READ " %}</a> 
+{% trans "(Recognition and Enrichment of Archival Documents)" %}
+    		    	</p>
+                </div>
+		<div class="col-lg-4">
+		    <img src="{% static 'img/nicesamples/1.original.jpg' %}" class="img-responsive" alt="">
+		</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">{% trans "Active Document Analysis and Recognition Competitions" %}</h2>
+					<br><br><br><br><br><br><br>
+                    <!-- <hr class="primary"> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid text-center">
+            <div class="row">
+				{% if competitions %}
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <div class="row">  
+				    {% for c in competitions %}
+                        {% include "competitions/master_competitions.html" %}
+				    {% endfor %}
+                    </div>
+                </div>
+                <div class="col-md-3"></div>                
+				{% else %}
+				<p> {% trans "*No competitions are currently active*" %}
+				{% endif %}
+            </div>
+        </div>
+    </section>
+
+    {% if not user.is_authenticated %}
+    <section class="bg-primary" id="register">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="col-lg-8 col-lg-offset-2 text-center"> -->
+                <div class="col-lg-4">
+                    <img src="{% static 'img/nicesamples/3.jpg' %}" class="img-responsive" alt="">
+                </div>
+		        <div class="col-lg-8">
+                    <h2 class="section-heading">{% trans "Register" %}</h2>
+                    <p class="text-faded">{% trans "Register to take part in one of the active competitions." %}</p>
+                    {% if messages %}
+                        {% for message in messages %}
+                        <div class="alert alert-{{ message.tags }}">
+                            {{ message }}
+                        </div>
+                        {% endfor %}
+                    {% endif %}
+                    <!-- Το ονομα του action αναφερεται στους regexp ορισμους των urls.py -->
+		            <form action="" method="post" role="form">
+		                {% csrf_token %}
+		                {% bootstrap_form register_form %}
+                        {% buttons %}
+		                <button class="btn btn-default" type="submit" name="register">{% trans "Register" %}</button>
+                        {% endbuttons %}
+		            </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    {% else %}
+    <section class="bg-primary" id="changeinfo">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="col-lg-8 col-lg-offset-2 text-center"> -->
+                <div class="col-lg-4">
+                    <img src="{% static 'img/nicesamples/3.jpg' %}" class="img-responsive" alt="">
+                </div>
+		        <div class="col-lg-8">
+                    <h2 class="section-heading">{% trans "Edit user info" %}</h2>
+                    <p class="text-faded">{% trans "Make changes to your user's personal information. Leave blank fields to be unchanged." %}</p>
+                    {% if messages %}
+                        {% for message in messages %}
+                        <div class="alert alert-{{ message.tags }}">
+                            {{ message }}
+                        </div>
+                        {% endfor %}
+                    {% endif %}
+                    <!-- Το ονομα του action αναφερεται στους regexp ορισμους των urls.py -->
+		            <form action="" method="post" role="form">
+		                {% csrf_token %}
+		                {% bootstrap_form changeinfo_form %}
+                        {% buttons %}
+		                <button class="btn btn-default" type="submit" name="changeinfo">{% trans "Edit info" %}</button>
+                        {% endbuttons %}
+		            </form>
+                </div>
+            </div>
+        </div>
+    </section>    
+    {% endif %}
+
+    {% if not user.is_authenticated %}
+    <section id="login">
+        <div class="container">
+            <div class="row">
+		        <div class="col-lg-8">
+                    <h2 class="section-heading">{% trans "Login" %}</h2>
+                    <p>{% trans "Login with your credentials if you have already registered." %}</p>
+                    {% if messages %}
+                        {% for message in messages %}
+                        <div class="alert alert-{{ message.tags }}">
+                            {{ message }}
+                        </div>
+                        {% endfor %}
+                    {% endif %}                    
+                    <!-- Το ονομα του action αναφερεται στους regexp ορισμους των urls.py -->
+		            <form action="" method="post" role="form">
+		                {% csrf_token %}
+		                {% bootstrap_form login_form %}
+                        {% buttons %}
+		                <button class="btn btn-default" type="submit" name="login">{% trans "Login" %}</button>
+                        {% endbuttons %}
+		            </form>
+                    <br><hr><br>
+                    <h3 class="section-heading">{% trans "Forgot password?" %}</h3>
+                    <!-- Το ονομα του action αναφερεται στους regexp ορισμους των urls.py -->
+		            <form action="" method="post" role="form">
+		                {% csrf_token %}
+		                {% bootstrap_form forgotpass_form %}
+                        {% buttons %}
+		                <button class="btn btn-default" type="submit" name="forgotpass">{% trans "Send activation link" %}</button>
+                        {% endbuttons %}
+		            </form>                    
+                </div>
+                <div class="col-lg-4">
+                    <img src="{% static 'img/nicesamples/3.jpg' %}" class="img-responsive" alt="">
+                </div>                
+            </div>
+        </div>
+    </section>
+    {% endif %}
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="text-center">
+                    <h2 class="section-heading">{% trans "Contact" %}</h2>
+                    <hr class="primary">
+			        <br><br><br><br><br>
+                </div>
+            </div>
+			<div class="row">
+				<div class="col-lg-2"></div>                
+				<div class="col-lg-5 vcenter">
+                    <a href="http://read.transkribus.eu/">
+                			<img src="{% static 'img/logos/read_logo.png' %}" class="img-responsive" alt="">
+                    </a>                                                                                
+				</div>
+                <div class="col-lg-4 vcenter">
+                    <a href="mailto:read@iit.demokritos.gr">                    
+                			<img src="{% static 'img/logos/ncsrd.jpg' %}" class="img-responsive" alt="">
+                    </a>                            
+				</div>
+				<div class="col-lg-1"></div>                
+			</div>
+            
+            <br><br><br>
+            <br><br><br><br><br><br><br><br>
+			<div class="row text-center">
+				<div class="col-lg-2"></div>
+				<div class="col-lg-9">                                
+                    <small>
+                        {% trans "© 2016 READ Project." %}                        
+                        {% trans "This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 674943." %}                                                
+                    </small>
+                </div>                    
+		        <div class="col-lg-1"></div>
+		    </div>
+            <br><br>
+            <div class="row text-center">
+                    <img src="{% static 'img/logos/logo_ec.png' %}" width="20%" class="img-responsive center-block" alt="">
+            </div>
+ 		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </div>
+    </section>
+				<div class="col-lg-8"></div>                
+                <div class="col-lg-3">                                
+                </div>
+                <div class="col-lg-1"></div>                
+
+    <!-- jQuery -->
+    <script src="{% static 'js/jquery.js' %}"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="{% static 'js/jquery.easing.min.js' %}"></script>
+    <script src="{% static 'js/jquery.fittext.js' %}"></script>
+    <script src="{% static 'js/wow.min.js' %}"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="{% static 'js/creative.js' %}"></script>
+
+</body>
+
+</html>
